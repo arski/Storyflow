@@ -10,8 +10,6 @@ Due to the varying topic models across different news organisations, it has been
 
 Note that the widget can be used in conjunction with sophisticated topic extraction or named entity recognition tools, but also simple tags and categories.
 
-For a demo, check out our [homepage](http://storyflow.net).
-
-For questions, suggestions and general comments, feel invited to open an issue on github, or contact me directly at martin@webscio.net.
+For a demo, check out our [homepage](http://storyflow.net). For questions, suggestions and general comments, feel welcome to open an issue on github, or contact me directly at martin@webscio.net.
 
 For installation and usage instructions, please refer to INSTALL.md.
