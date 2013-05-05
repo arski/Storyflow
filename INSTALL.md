@@ -37,7 +37,7 @@ Hereby, the three required parameters are defined as follows:
 # OPTIONS             #
 #######################
 
-In addition to the three required parameters, there is a bunch of further options that can be used to configure different aspects of the widget. The following is a list of options along with their default values. These can be overridden by passing values for corresponding attributes with the Widget() call shown above. The options will allow you to adjust the widget's appearance in all sorts of ways, but none of them are actually required, so feel free override the ones you like and ignore the ones you're happy with.
+In addition to the three required parameters, there is a bunch of further options that can be used to configure different aspects of the widget. The following is a list of options along with their default values. These can be overridden by passing values for corresponding attributes with the `Widget()` call shown above. The options will allow you to adjust the widget's appearance in all sorts of ways, but none of them are actually required, so feel free override the ones you like and ignore the ones you're happy with.
 
     Widget.prototype.defaults = {
       pointSize: 5, // Radius of inactive data point, in px.
