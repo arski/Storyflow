@@ -16,7 +16,7 @@
       if (!(this instanceof Storyflow.Widget)) {
         return new Storyflow.Widget(options);
       }
-      this.el = $(document.getElementById(options.element));
+      this.el = $(options.element);
       if (this.el === null || this.el.length === 0) {
         throw new Error("Graph placeholder not found.");
       }

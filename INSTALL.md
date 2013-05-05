@@ -14,8 +14,8 @@ After loading storyflow.js and all of its prerequisites, you can initialize the 
 
 Hereby, the three required parameters are defined as follows:
 
-    // Specifies the #id of the element where the Storyflow widget should be inserted. The element should be obviously present in the HTML code of the page where you are calling the widget.
-    var element = 'storyflow-chart'; 
+    // Specifies the id of the element where the Storyflow widget should be inserted. The element should be obviously present in the HTML code of the page where you are calling the widget.
+    var element = '#storyflow-chart'; 
     
     // List of widget topics as strings. Note that the order will be important later. Optimized to work with up to four topics.
     var keys = ["Pernod Ricard", "Jameson Irish Whiskey", "Irish Distillers", "Absolut Vodka"];
