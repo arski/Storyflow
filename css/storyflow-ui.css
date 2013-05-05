@@ -1,0 +1,98 @@
+#sf-container {width: 320px;}
+
+#sf-chart {background-color:white; height: 300px; width: 320px; clear: both;}
+
+#sf-chart-legend {width:318px;clear:both;border: solid 1px #555;}
+
+/* -------relevant legend css------- */
+
+.sf-logo {background-image: url(../images/sf-logo.png); width: 130px; height:25px; margin-bottom: 5px; float: left;}
+
+#sf-help-btn a {float: right; color: #aaabab; text-decoration: underline; margin-top: 5px; font-size: 16px;}
+
+#sf-story-title-cont {padding:10px; background-color:white;}
+
+#sf-story-title {height:40px; overflow:hidden;}
+
+#sf-story-title a {font-size: 16px; font-weight:bold; color:#000;}
+
+#sf-story-topics {border-top: solid 1px #555;padding: 5px 0 10px 10px; background-color:white; height:40px; line-height:20px;}
+
+#sf-story-topics ul {width: 320px; margin: 0; padding: 0; position: relative;}
+
+#sf-story-topics ul li {position:absolute; width: 150px; font-size:12px; list-style: none; color:#aaa; height: 15px; overflow: hidden;}
+
+#sf-story-topics ul li.sf-topic-active {color:#000;}
+
+#sf-container br {clear: left;}
+
+
+#sf-topic-1 {top: 5px; left: 0; }
+#sf-topic-2 {top: 5px; left: 160px; }
+#sf-topic-3 {top: 25px; left: 0; }
+#sf-topic-4 {top: 25px; left: 160px; }
+
+#sf-bars {height:5px;clear:both;}
+
+#sf-bars div {height: 5px;width: 25%;float: left; margin: 0;}
+
+#sf-bar-1 {background-color:#fcc637;}
+#sf-bar-2 {background-color:#31aad4;}
+#sf-bar-3 {background-color:#d00012;}
+#sf-bar-4 {background-color:#be3d8f;}
+
+/* -------circles------- */
+
+.sf-circle {
+  float:left;
+  height: 12px;
+  border-radius:15px;
+  -moz-border-radius:15px;
+  -webkit-border-radius: 15px;
+  width: 12px;
+  margin-right: 5px;
+  background-color: #aaa;
+}
+
+#sf-topic-1 .sf-circle {background-color: #d00012;}
+#sf-topic-2 .sf-circle {background-color: #31aad4;}
+#sf-topic-3 .sf-circle {background-color: #fcc637;}
+#sf-topic-4 .sf-circle {background-color: #be3d8f;}
+
+/* ----tooltip---- */
+
+#sf-help-btn a {
+  outline: none;
+  text-decoration: none;
+  position: relative;
+}
+#sf-help-btn a span {
+  left: -9999px;
+  top: 30px;
+  position: absolute;
+  z-index: 99;
+  margin-left: 0;
+  width: 240px;
+  background: #FFF;
+  border: 1px solid #aaa;
+}
+
+#sf-help-btn a:hover span {
+  left: 15px;
+}
+
+.sf-tooltip-content {padding: 0 10px 0 10px;}
+
+.sf-tooltip-content div {font-size: 14px; color: #5d5f60; font-weight: normal; margin: 10px 0;}
+
+.sf-tooltip-content hr {width: 220px; heigth: 1px; background-color: #aaa; border: none; margin: 0;}
+
+.sf-tooltip-content div:first-child {font-weight: bold; font-size: 16px;}
+
+.sf-tooltip-content .story-icon {width: 53px; height: 56px; background-image: url(../images/sf-story.png); background-repeat: no-repeat; float: left; margin: 5px 15px 0 0;}
+
+.sf-tooltip-content .read-icon {width: 53px; height: 53px; background-image: url(../images/sf-read.png); background-repeat: no-repeat; float: left; margin: 5px 15px 30px 0;}
+
+* html a:hover { background: transparent; }
+
+
